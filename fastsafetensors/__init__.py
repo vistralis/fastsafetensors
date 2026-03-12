@@ -11,5 +11,5 @@ from .common import (
     get_device_numa_node,
 )
 from .file_buffer import FilesBufferOnDevice
-from .loader import BaseSafeTensorsFileLoader, SafeTensorsFileLoader, fastsafe_open
+from .loader import BaseSafeTensorsFileLoader, SafeTensorsFileLoader, fastsafe_open, fastsafe_open_streaming
 from .parallel_loader import ParallelLoader
